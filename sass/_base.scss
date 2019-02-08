@@ -1,0 +1,122 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90%;
+  line-height: 140%;
+  color: #353535;
+  background: #c7a989;
+  @media (min-width: 500px) {
+    font-size: 100%;
+  }
+  @media (min-width: 780px) {
+    font-size: 115%;
+    line-height: 160%;
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+  line-height: 140%;
+}
+
+h1,
+h2 {
+  font-size: 1.6em;
+  margin: 0.85em 0 0.4em 0;
+}
+h3 { font-size: 1.15em; }
+h4 { font-size: 1.1em; }
+
+a {
+  color: #006fba;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+b,
+strong {
+  font-weight: 600;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #c1c1c0;
+}
+
+blockquote {
+  background: #eaeaea;
+  border-left: 1px solid #bbb;
+  font-style: italic;
+  margin: 1.5em 0.65rem 1.5rem 0;
+  padding: 0.5em 0.65rem;
+}
+blockquote:before {
+  color: #bbb;
+  content: "\201C";
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.2em;
+  vertical-align: -0.4em;
+}
+blockquote:after {
+  color: #bbb;
+  content: "\201D";
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -0.45em;
+}
+blockquote > p:first-child {
+  display: inline;
+}
+
+form {
+  input {
+    padding: 0.3em;
+    border: 1px solid #d2d2d2;
+    max-width: 100%;
+    outline: none;
+    box-sizing: border-box;
+    &:focus {
+      border: 1px solid #9ab5c7;
+    }
+    &[type=submit] {
+      padding: 0.5em 0.55em;
+      @media (min-width: 500) { padding: 0.5em 1em; }
+      border: none;
+      border-radius: 0.1em;
+      @media (min-width: 500) { letter-spacing: 1px; }
+      color: #fff;
+      background: #87a2b9;
+      transition: background 0.3s;
+      &:hover {
+        background: #53738e;
+      }
+    }
+  }
+  label {
+    display: block;
+  }
+}
+
+table {
+  width: 100%;
+  margin-bottom: 2em;
+  caption {
+    font-size: 1.5em;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,49 @@
+.layout-container {
+  background: #f5eee8;
+}
+
+header {
+  margin: 0 0 0.95em 0;
+  padding-top: 1.95em;
+  text-align: center;
+  background: #fff;
+  border-bottom: 1px solid #decbbe;
+}
+
+main {
+  margin: 0 auto 3em auto;
+  padding: 0 1em;
+  max-width: 750px;
+}
+
+body.sidebar {
+  @media (min-width: 760px) {
+    .layout-content {
+      float: left;
+      width: 70%;
+    }
+    .layout-sidebar {
+      float: right;
+      width: 25%;
+    }
+  }
+}
+
+footer.site-footer {
+  background: #c7a989;
+  padding: 0.7em 0 3em 0;
+  .layout-footer-multiple {
+    margin: 0 auto;
+    max-width: 750px;
+    .block {
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+  .layout-footer {
+    margin: 0 auto;
+    padding: 0 1em;
+    max-width: 750px;
+    @media (min-width: 780px) { text-align: left; }
+  }
+}

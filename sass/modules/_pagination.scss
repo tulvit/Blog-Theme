@@ -1,0 +1,28 @@
+nav.pager {
+  ul {
+    padding: 0;
+  }
+  .pager__item {
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    a {
+      text-decoration: none;
+      font-size: 1.4em;
+      color: #8c8c8c;
+      &:hover {
+        color: #525252;  
+      }
+    }
+    &.is-active {
+      display:none;
+    }
+    &.pager__item--previous {
+      float: left;
+    }
+    &.pager__item--next {
+      float: right;
+    }
+  }
+}

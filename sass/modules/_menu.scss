@@ -1,0 +1,15 @@
+.region-primary-menu nav {
+  li.menu-item {
+    margin: 0;
+    &:not(:first-child):before {
+      content:" • ";
+    }
+    a {
+      text-transform: uppercase;
+      font-weight: 500;
+      color: #636363;
+      font-size: 0.95em;
+      letter-spacing: 1px;
+    }
+  }
+}
