@@ -109,5 +109,5 @@ jQuery(document).on('click', 'i.totop', function(event){
 });
 
 jQuery(document).on('click', '#to-all-tags a', function(event){
-  jQuery('html, body').animate({ scrollTop: Math.ceil(jQuery("#block-views-block-tags-block-1").offset().top) }, 500);
+  jQuery('html, body').animate({ scrollTop: Math.ceil(jQuery("#block-blog-theme-views-block-tags-block-1").offset().top) }, 500);
 });
