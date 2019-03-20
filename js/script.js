@@ -101,7 +101,7 @@ var logo_colors = [
   '#64a2bf',
 ];
 
-jQuery("header .site-name a").css('background', logo_colors[Math.floor(Math.random()*logo_colors.length)]);
+//jQuery("header .site-name a").css('background', logo_colors[Math.floor(Math.random()*logo_colors.length)]);
 
 jQuery(document).on('click', 'i.totop', function(event){
   event.preventDefault();
