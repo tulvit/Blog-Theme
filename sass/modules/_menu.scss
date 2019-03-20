@@ -1,13 +1,15 @@
 .region-primary-menu nav {
+  background: rgba(1, 1, 1, 0.5);
   li.menu-item {
     margin: 0;
+    color: #f3f1f1;
     &:not(:first-child):before {
       content:" • ";
     }
     a {
       text-transform: uppercase;
       font-weight: 500;
-      color: #636363;
+      color: #f3f1f1;
       font-size: 0.95em;
       letter-spacing: 1px;
     }

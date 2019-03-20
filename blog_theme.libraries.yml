@@ -4,7 +4,7 @@ global-styling:
       https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i: { type: external }
       https://use.fontawesome.com/releases/v5.3.1/css/all.css: { type:external }
     styles:
-      css/master.css: {}
+      master.css: {}
   js:
     js/script.js: {}
   dependencies:

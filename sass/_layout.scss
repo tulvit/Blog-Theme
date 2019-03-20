@@ -1,12 +1,15 @@
 .layout-container {
-  background: #f5eee8;
+  background: #fff;
 }
 
 header {
   margin: 0 0 0.95em 0;
   padding-top: 1.95em;
   text-align: center;
-  background: #fff;
+  background: #3e3e3e;
+  background: url(bg2.jpg);
+  background-size: cover;
+  background-position: center;
   border-bottom: 1px solid #decbbe;
 }
 
@@ -40,6 +43,7 @@ footer.site-footer {
       vertical-align: top;
     }
   }
+  
   .layout-footer {
     margin: 0 auto;
     padding: 0 1em;
