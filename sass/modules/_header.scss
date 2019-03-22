@@ -23,6 +23,10 @@
     font-size: 1.7rem;
     color: white;
     letter-spacing: 1px;
+    text-decoration: none;
+    &:hover {
+      border-bottom: 2px solid #ffffff;
+    }
   }
   .site-slogan {
     font-style: italic;

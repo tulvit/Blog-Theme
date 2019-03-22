@@ -117,7 +117,7 @@ header {
   position: relative;
   margin: 0 0 0.95em 0;
   text-align: center;
-  background: #3e3e3e;
+  background: #fbfbfb;
   background: url(bg.jpg);
   background-position: top;
   background-size: 100%;
@@ -172,7 +172,10 @@ footer.site-footer {
     display: inline-block;
     font-size: 1.7rem;
     color: white;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    text-decoration: none; }
+    .region-header .site-name a:hover {
+      border-bottom: 2px solid #ffffff; }
   .region-header .site-slogan {
     font-style: italic;
     font-size: 1rem;
@@ -260,7 +263,10 @@ footer.site-footer {
       font-weight: 500;
       color: #efefef;
       font-size: 0.95em;
-      letter-spacing: 1px; }
+      letter-spacing: 1px;
+      text-decoration: none; }
+      .region-primary-menu nav li.menu-item a:hover {
+        border-bottom: 2px solid #efefef; }
 
 footer.site-footer {
   color: #464646;

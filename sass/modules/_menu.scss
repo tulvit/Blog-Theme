@@ -12,6 +12,10 @@
       color: #efefef;
       font-size: 0.95em;
       letter-spacing: 1px;
+      text-decoration: none;
+      &:hover {
+        border-bottom: 2px solid #efefef;
+      }
     }
   }
 }
