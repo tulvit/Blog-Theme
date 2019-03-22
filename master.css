@@ -158,7 +158,7 @@ footer.site-footer {
   position: absolute;
   bottom: 0.01em;
   left: 0.1em;
-  color: #f3f1f1; }
+  color: #efefef; }
   .layout-header .twitter-icon:hover {
     color: #38A1F3; }
 
@@ -252,13 +252,13 @@ footer.site-footer {
   background: rgba(1, 1, 1, 0.7); }
   .region-primary-menu nav li.menu-item {
     margin: 0;
-    color: #f3f1f1; }
+    color: #efefef; }
     .region-primary-menu nav li.menu-item:not(:first-child):before {
       content: " • "; }
     .region-primary-menu nav li.menu-item a {
       text-transform: uppercase;
       font-weight: 500;
-      color: #f3f1f1;
+      color: #efefef;
       font-size: 0.95em;
       letter-spacing: 1px; }
 

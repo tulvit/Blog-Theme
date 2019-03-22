@@ -2,14 +2,14 @@
   background: rgba(1, 1, 1, 0.7);
   li.menu-item {
     margin: 0;
-    color: #f3f1f1;
+    color: #efefef;
     &:not(:first-child):before {
       content:" • ";
     }
     a {
       text-transform: uppercase;
       font-weight: 500;
-      color: #f3f1f1;
+      color: #efefef;
       font-size: 0.95em;
       letter-spacing: 1px;
     }
