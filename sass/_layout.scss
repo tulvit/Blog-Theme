@@ -3,13 +3,14 @@
 }
 
 header {
+  position: relative;
   margin: 0 0 0.95em 0;
-  padding-top: 1.95em;
   text-align: center;
   background: #3e3e3e;
-  background: url(bg2.jpg);
-  background-size: cover;
-  background-position: center;
+  background: url(bg0.jpg);
+  background-position: top;
+  background-size: 100%;
+  background-attachment: fixed;
   border-bottom: 1px solid #decbbe;
 }
 
@@ -33,7 +34,7 @@ body.sidebar {
 }
 
 footer.site-footer {
-  background: #c7a989;
+  background: #c3c3c3;
   padding: 0.7em 0 3em 0;
   .layout-footer-multiple {
     margin: 0 auto;

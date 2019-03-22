@@ -7,15 +7,14 @@ body {
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 90%;
-  line-height: 140%;
+  line-height: 176%;
   color: #353535;
-  background: #c7a989;
+  background: #c3c3c3;
   @media (min-width: 500px) {
     font-size: 100%;
   }
   @media (min-width: 780px) {
     font-size: 120%;
-    line-height: 175%;
   }
 }
 

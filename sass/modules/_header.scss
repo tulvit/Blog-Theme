@@ -1,13 +1,39 @@
+.layout-header {
+  .twitter-icon {
+    font-size: 2.25em;
+    position: absolute;
+    bottom: 0;
+    left: 0.1em;
+    color: #f3f1f1;
+    &:hover {
+      color: #38A1F3;
+    }
+  }
+}
+
 .region-header {
+  padding: 3em 0;
+  @media (min-width: 500px) {
+    padding: 3em 0;
+  }
+  @media (min-width: 780px) {
+    padding: 3em 0; 
+  }
+  .block-system-branding-block {
+    display: inline-block;
+    padding: 0.7em 1.2em 0.5em 1.2em;
+    background: rgba(1, 1, 1, 0.8);
+  }
   .site-name a {
     display: inline-block;
-    padding: 1rem 1.5rem;
     font-size: 1.7rem;
     color: white;
+    letter-spacing: 1px;
   }
   .site-slogan {
     font-style: italic;
-    font-size: 0.95em;
+    font-size: 1rem;
+    color: #e8e8e8;
   }
 }
 
