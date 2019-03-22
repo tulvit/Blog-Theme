@@ -45,11 +45,10 @@
 <div class="layout-container">
 
   <header>
-    <div class="layout-header">
-    <a href="https://twitter.com/tulvit" title="@tulvit" class="twitter-icon"><i class="fab fa-twitter"></i></a>
-    {{ page.header }}
-    {{ page.primary_menu }}
-    <div class="clearfix"></div>
+    <div class="layout-header clearfix">
+      <a href="https://twitter.com/tulvit" title="@tulvit" class="twitter-icon"><i class="fab fa-twitter"></i></a>
+      {{ page.header }}
+      {{ page.primary_menu }}
     </div>
   </header>
   
@@ -59,7 +58,7 @@
 
   {{ page.help }}
 
-  <main>
+  <main class="clearfix">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
     <div class="layout-content">
@@ -71,13 +70,12 @@
         {{ page.sidebar }}
       </aside>
     {% endif %}
-    <div class="clearfix"></div>
   </main>
 
     <footer class="site-footer">
     <i class="totop fas fa-angle-up"></i>
       {% if page.footer %}
-      <div class="layout-footer" role="complementary">
+      <div class="layout-footer clearfix" role="complementary">
         <ul class="social-links">
           <li><a href="https://stackoverflow.com/users/1003329/tulvit?tab=profile" title="StackOverflow"><i class="fab fa-stack-overflow"></i></a></li>
           <li><a href="https://github.com/tulvit" title="GitHub"><i class="fab fa-github"></i></a></li>
@@ -88,7 +86,6 @@
           <li><a href="https://www.deviantart.com/tulvit" title="DeviantArt"><i class="fab fa-deviantart"></i></a></li>
         </ul>
         {{ page.footer }}
-        <div class="clearfix"></div>
       </div>
       {% endif %}
     </footer>

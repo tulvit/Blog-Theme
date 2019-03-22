@@ -118,7 +118,7 @@ header {
   margin: 0 0 0.95em 0;
   text-align: center;
   background: #3e3e3e;
-  background: url(bg0.jpg);
+  background: url(bg.jpg);
   background-position: top;
   background-size: 100%;
   background-attachment: fixed; }
@@ -164,12 +164,6 @@ footer.site-footer {
 
 .region-header {
   padding: 3em 0; }
-  @media (min-width: 500px) {
-    .region-header {
-      padding: 3em 0; } }
-  @media (min-width: 780px) {
-    .region-header {
-      padding: 3em 0; } }
   .region-header .block-system-branding-block {
     display: inline-block;
     padding: 0.7em 2em 0.5em 2em;
@@ -255,7 +249,7 @@ footer.site-footer {
   background: #eaeaea; }
 
 .region-primary-menu nav {
-  background: rgba(1, 1, 1, 0.5); }
+  background: rgba(1, 1, 1, 0.7); }
   .region-primary-menu nav li.menu-item {
     margin: 0;
     color: #f3f1f1; }
