@@ -1,8 +1,8 @@
 .layout-header {
   .twitter-icon {
-    font-size: 2.25em;
+    font-size: 2em;
     position: absolute;
-    bottom: 0;
+    bottom: 0.01em;
     left: 0.1em;
     color: #f3f1f1;
     &:hover {
@@ -21,7 +21,7 @@
   }
   .block-system-branding-block {
     display: inline-block;
-    padding: 0.7em 1.2em 0.5em 1.2em;
+    padding: 0.7em 2em 0.5em 2em;
     background: rgba(1, 1, 1, 0.8);
   }
   .site-name a {
