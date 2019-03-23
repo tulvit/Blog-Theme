@@ -158,7 +158,8 @@ footer.site-footer {
   position: absolute;
   bottom: 0.01em;
   left: 0.1em;
-  color: #efefef; }
+  color: #efefef;
+  z-index: 100; }
   .layout-header .twitter-icon:hover {
     color: #38A1F3; }
 
